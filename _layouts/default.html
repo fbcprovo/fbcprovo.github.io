@@ -1,46 +1,221 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="author" content="First Baptist Church Provo">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Google web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 
-    </head>
-    <body>
+    <!-- HTML5 Support for IE -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shim.js"></script>
+    <![endif]-->
 
+    <!-- Stylesheets -->
+    <link href="style/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+    <![endif]-->
+    <!-- Main style sheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+            <div class="row">
+                <div class="span6">
+                    <!-- Logo section. Note down the markup. -->
+                    <div class="logo">
+                        <div class="two">
+                            <p>
+                         <span class="two-f-big">
+                            <!-- Company Name. Replace index.html with your site name -->
+                            <a href="index.html">First Baptist Church Provo</a>
+                         </span><br />
+                                <!-- Tag line -->
+                                <span class="two-s-med grey">Proclaiming the cross for the joy of our city and the nations!</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social media icons -->
+                <div class="span4 offset2">
+                    <div class="social">
+                        <a href="https://www.facebook.com/firstbaptistprovo"><i class="icon-facebook"></i></a>
+                        <!-- <a href="#"><i class="icon-twitter"></i></a> -->
+                        <!-- <a href="#"><i class="icon-linkedin"></i></a> -->
+                        <!-- <a href="#"><i class="icon-google-plus"></i></a> -->
+                    </div>
+                </div>
             </div>
-     
-                {{ content }}
+        </div>
+    </header>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
+    <!-- ADD SLIDER ONLY ON HOMEPAGE -->
+
+    <!-- Navigation part -->
+    <div class="navigation-bar">
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <div class="n1">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #1. Note down the markup. Replace "index.html" with your link. Replace "Home" and "Lorem Praes" with your text. -->
+                                <a href="index.html"><span class="two-f-med">Home</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="n2">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #2 -->
+                                <a href="services.html"><span class="two-f-med">Services</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="n1">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #3 -->
+                                <a href="gallery.html"><span class="two-f-med">Gallery</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="n2">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #4 -->
+                                <a href="blog.html"><span class="two-f-med">Blog</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="n1">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #5 -->
+                                <a href="about.html"><span class="two-f-med">About</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="n2">
+                        <div class="two">
+                            <p class="back">
+                                <!-- Link #6 -->
+                                <a href="contact.html"><span class="two-f-med">Contact</span><br />
+                                    <span class="two-s-med grey">Lorem Praes</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div> <!-- /container -->
+        </div>
+    </div>
 
-    </body>
+    <div class="border"></div>
+
+    {{ content }}
+
+    <div class="border"></div>
+
+    <!-- Foot section -->
+
+    <div class="foot">
+        <div class="container">
+            <div class="row">
+                <!-- Two big link boxes -->
+                <div class="span6">
+                    <div class="two frn1">
+                        <!-- Box one. Replace # with link and anchor with your own text. -->
+                        <p class="fback">
+                            <a href="#"><span class="two-f-med">Praesent Sdiam</span><br />
+                                <span class="two-s-med grey"> Donec commodo diam</span></a>
+                        </p>
+                    </div>
+                    <div class="two frn2">
+                        <!-- Box two -->
+                        <p class="fback">
+                            <a href="#"><span class="two-f-med">Donec commodo</span><br />
+                                <span class="two-s-med grey">Praesent Sed diam nisi</span></a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Three big link boxes. -->
+                <div class="span6">
+                    <div class="two fln1">
+                        <!-- Replace # with your link -->
+                        <!-- Box #1 -->
+                        <p class="fback">
+                            <a href="#"><span class="two-f-med">Facebook</span><br />
+                                <span class="two-s-med grey">Praet eadiam</span></a>
+                        </p>
+                    </div>
+                    <div class="two fln2">
+                        <!-- Box #2 -->
+                        <p class="fback">
+                            <a href="#"><span class="two-f-med">Twitter</span><br />
+                                <span class="two-s-med grey">Sed diam nisi</span></a>
+                        </p>
+                    </div>
+                    <div class="two fln3">
+                        <!-- Box #3 -->
+                        <p class="fback">
+                            <a href="#"><span class="two-f-med">Youtube</span><br />
+                                <span class="two-s-med grey">Aliquam utra</span></a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <!-- Copyright info with links -->
+                    <p>Copyright &copy; <a href="#">First Baptist Church Provo</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/isotype.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.tweet.js"></script>
+    <script src="js/custom.js"></script>
+</body>
 </html>
