@@ -34,8 +34,8 @@ line-height:40px;
 }
 
 h5{
-font-size:25px;
-line-height:30px;
+font-size:22px;
+line-height:27px;
 }
 
 h6{
@@ -286,6 +286,7 @@ color:#fff;
 }
 
 header .social i{
+display: inline-block;
 background:#444;
 height:30px;
 width:30px;
