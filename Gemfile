@@ -4,6 +4,6 @@ source 'https://rubygems.org'
 
 ruby '2.1.5'
 
-gem 'jekyll', '~> 1.0.2'
+gem 'jekyll'
 
 gem 'pygmentize'

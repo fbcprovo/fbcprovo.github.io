@@ -1,5 +1,5 @@
 name: First Baptist Church Provo
-pygments: true
+highlighter: pygments
 exclude:
  - Gemfile
  - Gemfile.lock
